@@ -23,6 +23,7 @@ function start(){
         // just take the first one in the array and go from there. 
         const cityInputVal = recentCitiesSearched[0]
         getGeoFromApi(cityInputVal);
+        cityBtnCreate();
     }
 }
 //function fetch city history and make buttons
@@ -39,7 +40,6 @@ function cityBtnCreate(){
         recentCities.appendChild(btnDiv)
     })
 }
-cityBtnCreate();
 start();
 
 function handleFetchOnSubmit(event){
