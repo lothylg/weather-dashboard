@@ -54,8 +54,8 @@ function handleFetchOnSubmit(event){
 }
 
 async function getGeoFromApi(cityInputVal){
-    let locQueryUrl ='http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=9dda7082c6c5f74991b6bd06c0ed0db0';
-    const queryString = `http://api.openweathermap.org/geo/1.0/direct?q=${cityInputVal}&appid=9dda7082c6c5f74991b6bd06c0ed0db0`;
+    let locQueryUrl ='https://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=9dda7082c6c5f74991b6bd06c0ed0db0';
+    const queryString = `https://api.openweathermap.org/geo/1.0/direct?q=${cityInputVal}&appid=9dda7082c6c5f74991b6bd06c0ed0db0`;
 
     fetch(queryString)
         .then(function(response){
@@ -81,7 +81,7 @@ async function getGeoFromApi(cityInputVal){
 }
 
 function getWeatherFromGeo(lat, lon){
-    const weatherFromGeo = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=9dda7082c6c5f74991b6bd06c0ed0db0`;
+    const weatherFromGeo = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=9dda7082c6c5f74991b6bd06c0ed0db0`;
 
     fetch(weatherFromGeo)
     .then(function(response){
