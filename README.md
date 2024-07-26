@@ -7,6 +7,7 @@ Public URL: https://lothylg.github.io/weather-dashboard/
 
 #screenshot of the final product
 
+![Uploading Screen Shot 2024-07-25 at 10.03.02 PM.png…]()
 
 
 
