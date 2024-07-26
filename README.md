@@ -1,6 +1,12 @@
 #purpose of project (project description)
 to provide a dashboard that shows 5 days of weather for the user selected city. 
 
+#links to project
+GitHub: https://github.com/lothylg/weather-dashboard
+Public URL: https://lothylg.github.io/weather-dashboard/
+
+#screenshot of the final product
+
 
 
 
